@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  🤗 <a href="https://huggingface.co/SakanaAI">Models</a> | 
+  🤗 <a href="https://huggingface.co/collections/SakanaAI/drope">Models</a> | 
   📚 <a href="https://arxiv.org/abs/2512.12167">Paper</a> | 
   📝 <a href="https://sakana.ai/DroPE/">Blog</a> | 
   🐦 <a href="https://twitter.com/SakanaAILabs">Twitter</a>
