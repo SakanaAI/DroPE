@@ -44,10 +44,10 @@ This project uses [Hydra](https://hydra.cc/) for configuration management. Hydra
 
 Our models follow HuggingFace's model loading API. For example, to load a DroPE model, you can use the following code:
 ```bash
-from transformers import AutoModel, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 tokenizer = AutoTokenizer.from_pretrained('SakanaAI/Llama-2-7b-hf-DroPE', trust_remote_code=True)
-model = AutoModel.from_pretrained('SakanaAI/Llama-2-7b-hf-DroPE', trust_remote_code=True, torch_dtype=torch.bfloat16)
+model = AutoModelForCausalLM.from_pretrained('SakanaAI/Llama-2-7b-hf-DroPE', trust_remote_code=True, torch_dtype=torch.bfloat16)
 ```
 
 Inference is then straightforward:
